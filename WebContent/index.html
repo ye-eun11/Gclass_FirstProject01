@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>Twitter Bootstrap Carousel</title>
+
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		
+		<script src="jquery-2.0.3.js"></script>
+
+		<script src="bootstrap.js"></script>
+
+	</head>
+
+	<body>
+
+	    <div class="container">
+		
+		<div class="navbar">
+		
+			<div class="navbar-inner">
+		
+				<a class="brand" href="http://getbootstrap.com/2.3.2/javascript.html#carousel">Twitter Bootstrap Carousel</a>
+
+			</div>
+
+		</div>
+
+		<div id="myCarousel" class="carousel slide">
+
+			<div class="carousel-inner">
+
+				<div class="item active">
+
+					<img src="./img/01.jpg">
+					
+					<div class="carousel-caption">
+					
+						<p>25 teens from Englewood learned HTML, CSS and JavaScript during Englewood Codes Summer 2013.</p>
+						
+					</div>
+
+				</div>
+
+				<div class="item">
+
+					<img src="./img/02.JPG">
+					
+					<div class="carousel-caption">
+					
+						<p>The Phenomenal Women won the Englewood Arts Festival website competition.</p>
+						
+					</div>
+
+				</div>
+
+				<div class="item">
+
+					<img src="./img/03.JPG">
+
+					<div class="carousel-caption">
+					
+						<p>Leadership development is central to Englewood Codes.</p>
+						
+					</div>
+
+				</div>
+				
+				<div class="item">
+
+					<img src="./img/04.jpg">
+
+					<div class="carousel-caption">
+					
+						<p>Teamwork makes the dream work at Englewood Codes.</p>
+						
+					</div>
+
+				</div>
+				
+				<div class="item">
+
+					<img src="http://www.teamworkenglewood.org/uploads/teamworkenglewood/images/dsc_0227.jpg">
+
+					<div class="carousel-caption">
+					
+						<p>Englewood Codes is accepting applications for Fall 2013.</p>
+						
+					</div>
+
+				</div>
+
+			</div>
+
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
+		</div>
+
+		<script>
+			$(document).ready(function(){
+				$('.carousel').carousel({
+				  interval: 2000
+					});
+			});
+		</script>
+		
+	  </div>
+
+	</body>
+
+</html>
